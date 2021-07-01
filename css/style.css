@@ -118,6 +118,29 @@ body {
       background-color: #ec5252;
       color: #fff; }
 
+.myIntro {
+  background: linear-gradient(to right, #521822, #ec5252); }
+  .myIntro .intro_content {
+    width: 80%;
+    margin: auto;
+    padding: 20px; }
+    .myIntro .intro_content .intro_item .icon {
+      color: #fff;
+      font-size: 50px;
+      font-weight: bold;
+      margin-right: 25px; }
+    .myIntro .intro_content .intro_item .icon_content {
+      padding-top: 10px; }
+      .myIntro .intro_content .intro_item .icon_content p:first-child {
+        color: #fff;
+        font-size: 17px;
+        font-weight: bold;
+        margin-bottom: 0; }
+      .myIntro .intro_content .intro_item .icon_content p:last-child {
+        color: #fff;
+        font-size: 17px;
+        font-weight: normal; }
+
 .btn--white {
   color: #686f7a;
   background-color: #fff;
