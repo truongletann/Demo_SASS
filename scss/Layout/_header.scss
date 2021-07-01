@@ -1,0 +1,62 @@
+.myNavBar{
+    border-bottom: 1px solid $color-gray-3;
+    .navbar-brand{
+        flex-grow: 1;
+        img{
+            width: 110px;
+        }
+    }
+    .categories{
+        flex-grow: 1;
+        @include text($color-black-light,$fs-1,$fw-normal);
+        align-self: center;
+    }
+    .input-search{
+        flex-grow: 5;
+        .form-control{
+            background-color: $color-gray-1;
+            border: none;
+            font-size: 13px;
+            transition: none;
+            -webkit-transition: none;
+            -moz-transition: none;
+            -ms-transition: none;
+            -o-transition: none;
+            &:focus{
+                box-shadow: none;
+                background-color: $color-white-0;
+                border-top: 1px solid $color-gray-3;
+                border-bottom: 1px solid $color-gray-3;
+                border-left: 1px solid $color-gray-3;
+            }
+            &:focus + .input-group-prepend{
+                .input-group-text{
+                    background-color: $color-white-0;
+                    color: $color-red-0;
+                    border-top: 1px solid $color-gray-3;
+                    border-bottom: 1px solid $color-gray-3;
+                    border-right: 1px solid $color-gray-3;
+                }
+                &:hover{
+                    .input-group-text{
+                        color: $color-white-0;
+                        background-color: $color-red-0;
+                    }
+                }
+            }
+        }
+        .input-group-prepend{
+            .input-group-text{
+                background-color: $color-gray-1;
+                color: $color-red-0;
+                border: none;               
+            }
+            &:hover{
+                .input-group-text{
+                    color: $color-white-0;
+                    background-color: $color-red-0;
+                }
+            }
+        }
+    }
+}

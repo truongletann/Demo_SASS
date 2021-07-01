@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #29303b;
+  background-color: #fff;
+  line-height: 1.43; }
+
+.myNavBar {
+  border-bottom: 1px solid #cacbcc; }
+  .myNavBar .navbar-brand {
+    flex-grow: 1; }
+    .myNavBar .navbar-brand img {
+      width: 110px; }
+  .myNavBar .categories {
+    flex-grow: 1;
+    color: #505763;
+    font-size: 13px;
+    font-weight: normal;
+    align-self: center; }
+  .myNavBar .input-search {
+    flex-grow: 5; }
+    .myNavBar .input-search .form-control {
+      background-color: rgba(20, 23, 28, 0.05);
+      border: none;
+      font-size: 13px;
+      transition: none;
+      -webkit-transition: none;
+      -moz-transition: none;
+      -ms-transition: none;
+      -o-transition: none; }
+      .myNavBar .input-search .form-control:focus {
+        box-shadow: none;
+        background-color: #fff;
+        border-top: 1px solid #cacbcc;
+        border-bottom: 1px solid #cacbcc;
+        border-left: 1px solid #cacbcc; }
+      .myNavBar .input-search .form-control:focus + .input-group-prepend .input-group-text {
+        background-color: #fff;
+        color: #ec5252;
+        border-top: 1px solid #cacbcc;
+        border-bottom: 1px solid #cacbcc;
+        border-right: 1px solid #cacbcc; }
+      .myNavBar .input-search .form-control:focus + .input-group-prepend:hover .input-group-text {
+        color: #fff;
+        background-color: #ec5252; }
+    .myNavBar .input-search .input-group-prepend .input-group-text {
+      background-color: rgba(20, 23, 28, 0.05);
+      color: #ec5252;
+      border: none; }
+    .myNavBar .input-search .input-group-prepend:hover .input-group-text {
+      color: #fff;
+      background-color: #ec5252; }
+
+/*# sourceMappingURL=style.css.map */
