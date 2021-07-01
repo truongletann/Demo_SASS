@@ -59,4 +59,38 @@
             }
         }
     }
+    .navbar-nav{
+        justify-content: space-between;
+        width: 100%;
+        .nav-item{
+            .nav-link{
+                @include text($color-black-light, $fs-1, $fw-normal);
+                padding: $pd-1 $pd-2;
+            }
+            &:hover{
+                background-color: $color-gray-1;             
+            }
+        }
+        .nav-item:nth-child(3){
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+        }
+    }
+    @include respond-to('extra-large'){
+        .navbar-nav{
+            .business, .instructor{
+                display: none;
+            }
+        }
+        
+    }
+    @include respond-to('medium'){
+        .categories, .input-search{
+            display: none;
+        }
+        
+    }
 }

@@ -54,5 +54,86 @@ body {
     .myNavBar .input-search .input-group-prepend:hover .input-group-text {
       color: #fff;
       background-color: #ec5252; }
+  .myNavBar .navbar-nav {
+    justify-content: space-between;
+    width: 100%; }
+    .myNavBar .navbar-nav .nav-item .nav-link {
+      color: #505763;
+      font-size: 13px;
+      font-weight: normal;
+      padding: 10px 20px; }
+    .myNavBar .navbar-nav .nav-item:hover {
+      background-color: rgba(20, 23, 28, 0.05); }
+    .myNavBar .navbar-nav .nav-item:nth-child(3) {
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%; }
+  @media screen and (max-width: 1200px) {
+    .myNavBar .navbar-nav .business, .myNavBar .navbar-nav .instructor {
+      display: none; } }
+  @media screen and (max-width: 768px) {
+    .myNavBar .categories, .myNavBar .input-search {
+      display: none; } }
+
+.myCover {
+  background-image: url("../img/cover.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px; }
+  .myCover .cover_content {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 40%; }
+    .myCover .cover_content h1 {
+      color: #fff;
+      font-size: 40px;
+      font-weight: bold; }
+    .myCover .cover_content p {
+      color: #fff;
+      font-size: 18px;
+      font-weight: normal; }
+    .myCover .cover_content .input .form-control {
+      padding: 20px;
+      border: none;
+      border-radius: 0;
+      -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      -ms-border-radius: 0;
+      -o-border-radius: 0; }
+      .myCover .cover_content .input .form-control::placeholder {
+        color: #a1a7b3;
+        font-size: 20px;
+        font-weight: normal; }
+      .myCover .cover_content .input .form-control:focus {
+        box-shadow: none; }
+    .myCover .cover_content .input .input-group-prepend .input-group-text {
+      background-color: #fff;
+      color: #ec5252;
+      border: none; }
+    .myCover .cover_content .input .input-group-prepend:hover .input-group-text {
+      background-color: #ec5252;
+      color: #fff; }
+
+.btn--white {
+  color: #686f7a;
+  background-color: #fff;
+  font-weight: 600;
+  border: 1px solid #505763; }
+  .btn--white:hover {
+    background-color: rgba(20, 23, 28, 0.05);
+    color: #686f7a; }
+
+.btn--red {
+  color: #fff;
+  background-color: #ec5252;
+  font-weight: 600;
+  border: 1px solid #ec5252; }
+  .btn--red:hover {
+    background-color: #992337;
+    color: #fff; }
 
 /*# sourceMappingURL=style.css.map */
