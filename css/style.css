@@ -141,6 +141,133 @@ body {
         font-size: 17px;
         font-weight: normal; }
 
+.myCourse {
+  margin-top: 25px; }
+  .myCourse .course_content {
+    width: 80%;
+    margin: auto; }
+    .myCourse .course_content .course_intro {
+      padding-top: 4rem; }
+      .myCourse .course_content .course_intro h2 {
+        color: #29303b;
+        font-size: 36px;
+        font-weight: normal; }
+    .myCourse .course_content .myTab .nav {
+      justify-content: space-between;
+      border: none; }
+      .myCourse .course_content .myTab .nav .nav-item:hover .nav-link {
+        border: none; }
+      .myCourse .course_content .myTab .nav .nav-item .nav-link.active {
+        border: none;
+        border-bottom: 5px solid #007791; }
+      .myCourse .course_content .myTab .nav .nav-item .nav-link {
+        color: #29303b;
+        font-size: 15px;
+        font-weight: normal;
+        border: none; }
+    .myCourse .course_content .myTab .tab-content {
+      margin-top: 25px;
+      position: relative; }
+      .myCourse .course_content .myTab .tab-content .card-title {
+        color: #29303b;
+        font-size: 15px;
+        font-weight: bold; }
+      .myCourse .course_content .myTab .tab-content .card-text {
+        color: #686f7a;
+        font-size: 13px;
+        font-weight: normal; }
+      .myCourse .course_content .myTab .tab-content .rating {
+        display: flex; }
+        .myCourse .course_content .myTab .tab-content .rating .rating_star {
+          color: #F4C150;
+          font-size: 13px;
+          font-weight: normal;
+          margin-right: 2px; }
+        .myCourse .course_content .myTab .tab-content .rating span:nth-child(2) {
+          color: #686f7a;
+          font-size: 13px;
+          font-weight: bold;
+          margin-right: 2px; }
+        .myCourse .course_content .myTab .tab-content .rating span:last-child {
+          color: #686f7a;
+          font-size: 13px;
+          font-weight: normal; }
+      .myCourse .course_content .myTab .tab-content .price .old-price {
+        color: #686f7a;
+        font-size: 13px;
+        font-weight: normal;
+        text-decoration: line-through; }
+      .myCourse .course_content .myTab .tab-content .price .new-price {
+        color: #29303b;
+        font-size: 15px;
+        font-weight: bold; }
+
+.myStudent {
+  margin-top: 25px; }
+  .myStudent .student_content {
+    width: 80%;
+    margin: auto; }
+    .myStudent .student_content .card-title {
+      color: #29303b;
+      font-size: 15px;
+      font-weight: bold; }
+    .myStudent .student_content .card-text {
+      color: #686f7a;
+      font-size: 13px;
+      font-weight: normal; }
+    .myStudent .student_content .rating {
+      display: flex; }
+      .myStudent .student_content .rating .rating_star {
+        color: #F4C150;
+        font-size: 13px;
+        font-weight: normal;
+        margin-right: 2px; }
+      .myStudent .student_content .rating span:nth-child(2) {
+        color: #686f7a;
+        font-size: 13px;
+        font-weight: bold;
+        margin-right: 2px; }
+      .myStudent .student_content .rating span:last-child {
+        color: #686f7a;
+        font-size: 13px;
+        font-weight: normal; }
+    .myStudent .student_content .price .old-price {
+      color: #686f7a;
+      font-size: 13px;
+      font-weight: normal;
+      text-decoration: line-through; }
+    .myStudent .student_content .price .new-price {
+      color: #29303b;
+      font-size: 15px;
+      font-weight: bold; }
+
+.owl-prev, .owl-next {
+  position: absolute;
+  top: 33%;
+  left: -3%;
+  padding: 0;
+  width: 45px;
+  height: 45px;
+  border-radius: 50% !important;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-color: #fff !important;
+  box-shadow: 0 2px 8px 2px rgba(20, 23, 28, 0.1);
+  z-index: 3; }
+  .owl-prev span, .owl-next span {
+    color: #007791;
+    font-size: 40px;
+    font-weight: normal;
+    line-height: 0.7; }
+  .owl-prev:focus, .owl-next:focus {
+    outline: none; }
+
+.owl-next {
+  left: unset;
+  right: -3%; }
+
 .btn--white {
   color: #686f7a;
   background-color: #fff;

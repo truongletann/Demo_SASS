@@ -1,0 +1,37 @@
+.myStudent{
+    margin-top: $mg-2;
+    .student_content{
+        width: 80%;
+        margin: auto;
+        .card-title {
+            @include text($color-black-0, $fs-0, $fw-bold);
+        }
+        .card-text {
+            @include text($color-gray-4, $fs-1, $fw-normal);
+        }
+        .rating {
+            display: flex;
+            .rating_star {
+                @include text($color-yellow, $fs-1, $fw-normal);
+                margin-right: $mg-0;
+            }
+            span:nth-child(2) {
+                @include text($color-gray-4, $fs-1, $fw-bold);
+                margin-right: $mg-0;
+            }
+            span:last-child {
+                @include text($color-gray-4, $fs-1, $fw-normal);
+            }
+        }
+        .price {
+            // text-align: right;
+            .old-price {
+                @include text($color-gray-4, $fs-1, $fw-normal);
+                text-decoration: line-through;
+            }
+            .new-price {
+                @include text($color-black-0, $fs-0, $fw-bold);
+            }
+        }
+    }
+}

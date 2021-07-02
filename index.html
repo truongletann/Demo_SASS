@@ -1,23 +1,30 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <title>Layout Udemy</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
     <!-- style -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
-  <body>
-      <header class="container-fluid myNavBar">
-          <nav class="navbar navbar-expand-md navbar-light">
-              <div class="col-xl-6 col-lg-9 col-md-8 col-sm-6">
-                  <div class="row">
+
+<body>
+    <header class="container-fluid myNavBar">
+        <nav class="navbar navbar-expand-md navbar-light">
+            <div class="col-xl-6 col-lg-9 col-md-8 col-sm-6">
+                <div class="row">
                     <a class="navbar-brand" href="#">
-                        <img src="./img/logo-coral.svg" alt="logo"/>
+                        <img src="./img/logo-coral.svg" alt="logo" />
                     </a>
                     <div class="categories">
                         <i class="fa fa-th"></i>
@@ -25,19 +32,19 @@
                     </div>
                     <div class="input-search">
                         <form action="">
-                            <div class="input-group">                           
+                            <div class="input-group">
                                 <input type="text" class="form-control" placeholder="Search for Courses">
                                 <div class="input-group-prepend">
                                     <span class="input-group-text">
                                         <i class="fa fa-search"></i>
                                     </span>
                                 </div>
-                              </div>
+                            </div>
                         </form>
                     </div>
-                  </div>
-                
-              </div>
+                </div>
+
+            </div>
             <div class="col-xl-6 col-lg-3 col-md-4 col-sm-4" style="margin-top: -4px;">
                 <div class="collapse navbar-collapse" id="collapsibleNavId">
                     <ul class="navbar-nav">
@@ -46,48 +53,49 @@
                         </li>
                         <li class="nav-item instructor">
                             <a class="nav-link" href="#">Become an Instructor</a>
-                        </li> 
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">
                                 <i class="fa fa-shopping-cart"></i>
                             </a>
-                            
-                        </li> 
+
+                        </li>
                         <li class="nav-item">
                             <div class="button d-flex">
                                 <button class="btn btn--white mr-1">Login In</button>
                                 <button class="btn btn--red">Sign Up</button>
                             </div>
-                        </li>                      
-                    </ul>                 
+                        </li>
+                    </ul>
                 </div>
-              </div>
-              
-              <button class="navbar-toggler hidden-lg-up col-sm-2" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
-                  aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-              </button>
-              
-          </nav>
-      </header>
+            </div>
 
-      <!-- cover -->
-      <section class="myCover">
+            <button class="navbar-toggler hidden-lg-up col-sm-2" type="button" data-toggle="collapse"
+                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+        </nav>
+    </header>
+
+    <!-- cover -->
+    <section class="myCover">
         <div class="cover_content">
             <h1>Learn on your schedule</h1>
             <p>Study any topic, anytime. Explore thousands of courses for as low as $19.99</p>
             <div class="input">
-              <form action="">
-                  <div class="input-group">                           
-                      <input type="text" class="form-control" placeholder="What do you want to learn?">
-                      <div class="input-group-prepend">
-                          <span class="input-group-text">
-                              <i class="fa fa-search"></i>
-                          </span>
-                      </div>
+                <form action="">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="What do you want to learn?">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">
+                                <i class="fa fa-search"></i>
+                            </span>
+                        </div>
                     </div>
-              </form>
-          </div>
+                </form>
+            </div>
         </div>
     </section>
 
@@ -135,57 +143,340 @@
     <!-- courses -->
     <section class="myCourse">
         <div class="course_content">
-            <div class="col-md-4">
-                <div class="course_intro">
-                    <h2>The world's largest selection of courses</h2>
-                    <p>Choose from over 80,000 online video courses with new additions published every month</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="course_intro">
+                        <h2>The world's largest selection of courses</h2>
+                        <p>Choose from over 80,000 online video courses with new additions published every month</p>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="myTab">
+                        <!-- Nav tabs -->
+                        <ul class="nav nav-tabs">
+                            <li class="nav-item">
+                                <a class="nav-link active" data-toggle="tab" href="#dev">Development</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#design">Design</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#business">Business</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#it">IT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#personal">Personal</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#marketing">Marketing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#photography">Photography</a>
+                            </li>
+                        </ul>
+
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div class="tab-pane container active" id="dev">
+                                <div class="course_items owl-carousel owl-theme">
+                                    <div class="card">
+                                        <img class="card-img-top" src="./img/kh1.jpg" alt="Card image">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Bootstrap 4 From Scratch With 5 Projects</h4>
+                                            <p class="card-text">Jonas Schmedtmann</p>
+                                            <div class="rating">
+                                                <div class="rating_star">
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star-half-o"></i>
+                                                </div>
+                                                <span>4.8</span>
+                                                <span>(43453)</span>
+                                            </div>
+                                            <div class="price">
+                                                <span class="old-price">$176.9</span>
+                                                <span class="new-price">$9.99</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img class="card-img-top" src="./img/kh1.jpg" alt="Card image">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Bootstrap 4 From Scratch With 5 Projects</h4>
+                                            <p class="card-text">Jonas Schmedtmann</p>
+                                            <div class="rating">
+                                                <div class="rating_star">
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star-half-o"></i>
+                                                </div>
+                                                <span>4.8 </span>
+                                                <span> (43453)</span>
+                                            </div>
+                                            <div class="price">
+                                                <span class="old-price">$176.9</span>
+                                                <span class="new-price">$9.99</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img class="card-img-top" src="./img/kh1.jpg" alt="Card image">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Bootstrap 4 From Scratch With 5 Projects</h4>
+                                            <p class="card-text">Jonas Schmedtmann</p>
+                                            <div class="rating">
+                                                <div class="rating_star">
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star-half-o"></i>
+                                                </div>
+                                                <span>4.8 </span>
+                                                <span> (43453)</span>
+                                            </div>
+                                            <div class="price">
+                                                <span class="old-price">$176.9</span>
+                                                <span class="new-price">$9.99</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img class="card-img-top" src="./img/kh1.jpg" alt="Card image">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Bootstrap 4 From Scratch With 5 Projects</h4>
+                                            <p class="card-text">Jonas Schmedtmann</p>
+                                            <div class="rating">
+                                                <div class="rating_star">
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star-half-o"></i>
+                                                </div>
+                                                <span>4.8 </span>
+                                                <span> (43453)</span>
+                                            </div>
+                                            <div class="price">
+                                                <span class="old-price">$176.9</span>
+                                                <span class="new-price">$9.99</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                                                
+                                </div>
+
+                            </div>
+                            <div class="tab-pane container fade" id="design">...</div>
+                            <div class="tab-pane container fade" id="business">...</div>
+                            <div class="tab-pane container active" id="it">...</div>
+                            <div class="tab-pane container fade" id="personal">...</div>
+                            <div class="tab-pane container fade" id="marketing">...</div>
+                            <div class="tab-pane container fade" id="photography">...</div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-8">
-                <div class="myTab">
-                    <!-- Nav tabs -->
-                    <ul class="nav nav-tabs">
-                        <li class="nav-item">
-                            <a class="nav-link active" data-toggle="tab" href="#dev">Development</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" data-toggle="tab" href="#design">Design</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" data-toggle="tab" href="#business">Business</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" data-toggle="tab" href="#it">IT</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" data-toggle="tab" href="#personal">Personal</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" data-toggle="tab" href="#marketing">Marketing</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" data-toggle="tab" href="#photography">Photography</a>
-                        </li>
-                    </ul>
-                    
-                    <!-- Tab panes -->
-                    <div class="tab-content">
-                        <div class="tab-pane container active" id="dev">...</div>
-                        <div class="tab-pane container fade" id="design">...</div>
-                        <div class="tab-pane container fade" id="business">...</div>
-                        <div class="tab-pane container active" id="it">...</div>
-                        <div class="tab-pane container fade" id="personal">...</div>
-                        <div class="tab-pane container fade" id="marketing">...</div>
-                        <div class="tab-pane container fade" id="photography">...</div>
+        </div>
+    </section>
+
+    <!-- student -->
+    <section class="myStudent">
+        <div class="student_content">
+            <h3>Students are viewing</h3>
+            <div class="student_course owl-carousel owl-theme">
+                <div class="card">
+                    <img class="card-img-top" src="./img/kh1.jpg" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">Bootstrap 4 From Scratch With 5 Projects</h4>
+                        <p class="card-text">Jonas Schmedtmann</p>
+                        <div class="rating">
+                            <div class="rating_star">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                            </div>
+                            <span>4.8</span>
+                            <span>(43453)</span>
+                        </div>
+                        <div class="price">
+                            <span class="old-price">$176.9</span>
+                            <span class="new-price">$9.99</span>
+                        </div>
                     </div>
-                </div>     
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="./img/kh1.jpg" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">Bootstrap 4 From Scratch With 5 Projects</h4>
+                        <p class="card-text">Jonas Schmedtmann</p>
+                        <div class="rating">
+                            <div class="rating_star">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                            </div>
+                            <span>4.8 </span>
+                            <span> (43453)</span>
+                        </div>
+                        <div class="price">
+                            <span class="old-price">$176.9</span>
+                            <span class="new-price">$9.99</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="./img/kh1.jpg" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">Bootstrap 4 From Scratch With 5 Projects</h4>
+                        <p class="card-text">Jonas Schmedtmann</p>
+                        <div class="rating">
+                            <div class="rating_star">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                            </div>
+                            <span>4.8 </span>
+                            <span> (43453)</span>
+                        </div>
+                        <div class="price">
+                            <span class="old-price">$176.9</span>
+                            <span class="new-price">$9.99</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="./img/kh1.jpg" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">Bootstrap 4 From Scratch With 5 Projects</h4>
+                        <p class="card-text">Jonas Schmedtmann</p>
+                        <div class="rating">
+                            <div class="rating_star">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                            </div>
+                            <span>4.8 </span>
+                            <span> (43453)</span>
+                        </div>
+                        <div class="price">
+                            <span class="old-price">$176.9</span>
+                            <span class="new-price">$9.99</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="./img/kh1.jpg" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">Bootstrap 4 From Scratch With 5 Projects</h4>
+                        <p class="card-text">Jonas Schmedtmann</p>
+                        <div class="rating">
+                            <div class="rating_star">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                            </div>
+                            <span>4.8 </span>
+                            <span> (43453)</span>
+                        </div>
+                        <div class="price">
+                            <span class="old-price">$176.9</span>
+                            <span class="new-price">$9.99</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="./img/kh1.jpg" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">Bootstrap 4 From Scratch With 5 Projects</h4>
+                        <p class="card-text">Jonas Schmedtmann</p>
+                        <div class="rating">
+                            <div class="rating_star">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                            </div>
+                            <span>4.8 </span>
+                            <span> (43453)</span>
+                        </div>
+                        <div class="price">
+                            <span class="old-price">$176.9</span>
+                            <span class="new-price">$9.99</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script>
+        $('.student_course').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            dots:false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 5
+                }
+            }
+        })
+    </script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            dots:false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        })
+    </script>
+
+</body>
+
 </html>
