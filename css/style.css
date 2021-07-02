@@ -10,7 +10,14 @@ body {
   line-height: 1.43; }
 
 .myNavBar {
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  background-color: #fff;
+  transition: all 1s;
   border-bottom: 1px solid #cacbcc; }
+  .myNavBar.headerClass {
+    border-bottom: 5px solid #007791; }
   .myNavBar .navbar-brand {
     flex-grow: 1; }
     .myNavBar .navbar-brand img {

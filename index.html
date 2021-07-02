@@ -477,6 +477,17 @@
         })
     </script>
 
+    <script>
+        $(window).scroll(function(){
+            if($(window).scrollTop() > 500){
+                $('.myNavBar').addClass('headerClass');
+            }
+            else{
+                $('.myNavBar').removeClass('headerClass');
+            }
+        })
+    </script>
+
 </body>
 
 </html>

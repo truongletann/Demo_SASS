@@ -1,4 +1,12 @@
 .myNavBar{
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    background-color: $color-white-0;
+    transition: all 1s;
+    &.headerClass{
+        border-bottom: 5px solid $color-blue;
+    }
     border-bottom: 1px solid $color-gray-3;
     .navbar-brand{
         flex-grow: 1;
